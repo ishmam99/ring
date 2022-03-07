@@ -44,7 +44,13 @@ function App() {
           </a>
         </div> */}
 
-        <Navbar collapseOnSelect expand='lg' bg='black' variant='dark'>
+        <Navbar
+          collapseOnSelect
+          expand='lg'
+          className='navbar navbar-dark bg-dark'
+          bg='black'
+          variant='dark'
+        >
           <Container>
             <div className='logo m-2'>
               <img src={logo} alt='headerlogo' />
@@ -56,7 +62,7 @@ function App() {
                 <Nav.Link href='https://doc.theringchronicle.io/'>
                   WhitePaper
                 </Nav.Link>
-              
+
                 <Nav.Link href='#deets'>Pitch deck</Nav.Link>
                 <Nav.Link eventKey={2} href='#memes'>
                   News
