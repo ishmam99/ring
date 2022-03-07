@@ -56,14 +56,15 @@ function App() {
                 <Nav.Link href='https://doc.theringchronicle.io/'>
                   WhitePaper
                 </Nav.Link>
-              </Nav>
-              <Nav>
+              
                 <Nav.Link href='#deets'>Pitch deck</Nav.Link>
                 <Nav.Link eventKey={2} href='#memes'>
                   News
                 </Nav.Link>
                 <Nav.Link>
-                  <a className='button'>PLAY NOW</a>
+                  <a href='#deets' className='button'>
+                    PLAY NOW
+                  </a>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
